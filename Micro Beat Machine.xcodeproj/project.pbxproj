@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		521BEC47256FAF5300F96DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BEC46256FAF5300F96DA9 /* AppDelegate.swift */; };
 		521BEC49256FAF5300F96DA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BEC48256FAF5300F96DA9 /* SceneDelegate.swift */; };
-		521BEC4B256FAF5300F96DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BEC4A256FAF5300F96DA9 /* ViewController.swift */; };
-		521BEC4E256FAF5300F96DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC4C256FAF5300F96DA9 /* Main.storyboard */; };
 		521BEC50256FAF5800F96DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC4F256FAF5800F96DA9 /* Assets.xcassets */; };
 		521BEC53256FAF5800F96DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC51256FAF5800F96DA9 /* LaunchScreen.storyboard */; };
+		521BEC66256FAF8A00F96DA9 /* bit2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC5C256FAF8800F96DA9 /* bit2.mp3 */; };
+		521BEC67256FAF8A00F96DA9 /* bit5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC5D256FAF8900F96DA9 /* bit5.mp3 */; };
+		521BEC68256FAF8A00F96DA9 /* bit3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC5E256FAF8900F96DA9 /* bit3.mp3 */; };
+		521BEC69256FAF8A00F96DA9 /* bit8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC5F256FAF8900F96DA9 /* bit8.mp3 */; };
+		521BEC6A256FAF8A00F96DA9 /* bit7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC60256FAF8900F96DA9 /* bit7.mp3 */; };
+		521BEC6B256FAF8A00F96DA9 /* bit6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC61256FAF8900F96DA9 /* bit6.mp3 */; };
+		521BEC6C256FAF8A00F96DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC62256FAF8900F96DA9 /* Main.storyboard */; };
+		521BEC6D256FAF8A00F96DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BEC63256FAF8900F96DA9 /* ViewController.swift */; };
+		521BEC6E256FAF8A00F96DA9 /* bit4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC64256FAF8900F96DA9 /* bit4.mp3 */; };
+		521BEC6F256FAF8A00F96DA9 /* bit1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC65256FAF8A00F96DA9 /* bit1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		521BEC43256FAF5300F96DA9 /* Micro Beat Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Micro Beat Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		521BEC46256FAF5300F96DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		521BEC48256FAF5300F96DA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		521BEC4A256FAF5300F96DA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		521BEC4D256FAF5300F96DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		521BEC4F256FAF5800F96DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		521BEC52256FAF5800F96DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		521BEC54256FAF5800F96DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521BEC5C256FAF8800F96DA9 /* bit2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit2.mp3; sourceTree = "<group>"; };
+		521BEC5D256FAF8900F96DA9 /* bit5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit5.mp3; sourceTree = "<group>"; };
+		521BEC5E256FAF8900F96DA9 /* bit3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit3.mp3; sourceTree = "<group>"; };
+		521BEC5F256FAF8900F96DA9 /* bit8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit8.mp3; sourceTree = "<group>"; };
+		521BEC60256FAF8900F96DA9 /* bit7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit7.mp3; sourceTree = "<group>"; };
+		521BEC61256FAF8900F96DA9 /* bit6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit6.mp3; sourceTree = "<group>"; };
+		521BEC62256FAF8900F96DA9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		521BEC63256FAF8900F96DA9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../Drum/Drum/ViewController.swift; sourceTree = "<group>"; };
+		521BEC64256FAF8900F96DA9 /* bit4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit4.mp3; sourceTree = "<group>"; };
+		521BEC65256FAF8A00F96DA9 /* bit1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +74,16 @@
 			children = (
 				521BEC46256FAF5300F96DA9 /* AppDelegate.swift */,
 				521BEC48256FAF5300F96DA9 /* SceneDelegate.swift */,
-				521BEC4A256FAF5300F96DA9 /* ViewController.swift */,
-				521BEC4C256FAF5300F96DA9 /* Main.storyboard */,
+				521BEC65256FAF8A00F96DA9 /* bit1.mp3 */,
+				521BEC5C256FAF8800F96DA9 /* bit2.mp3 */,
+				521BEC5E256FAF8900F96DA9 /* bit3.mp3 */,
+				521BEC64256FAF8900F96DA9 /* bit4.mp3 */,
+				521BEC5D256FAF8900F96DA9 /* bit5.mp3 */,
+				521BEC61256FAF8900F96DA9 /* bit6.mp3 */,
+				521BEC60256FAF8900F96DA9 /* bit7.mp3 */,
+				521BEC5F256FAF8900F96DA9 /* bit8.mp3 */,
+				521BEC62256FAF8900F96DA9 /* Main.storyboard */,
+				521BEC63256FAF8900F96DA9 /* ViewController.swift */,
 				521BEC4F256FAF5800F96DA9 /* Assets.xcassets */,
 				521BEC51256FAF5800F96DA9 /* LaunchScreen.storyboard */,
 				521BEC54256FAF5800F96DA9 /* Info.plist */,
@@ -125,8 +149,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				521BEC53256FAF5800F96DA9 /* LaunchScreen.storyboard in Resources */,
+				521BEC6C256FAF8A00F96DA9 /* Main.storyboard in Resources */,
+				521BEC6F256FAF8A00F96DA9 /* bit1.mp3 in Resources */,
+				521BEC67256FAF8A00F96DA9 /* bit5.mp3 in Resources */,
+				521BEC6B256FAF8A00F96DA9 /* bit6.mp3 in Resources */,
+				521BEC68256FAF8A00F96DA9 /* bit3.mp3 in Resources */,
 				521BEC50256FAF5800F96DA9 /* Assets.xcassets in Resources */,
-				521BEC4E256FAF5300F96DA9 /* Main.storyboard in Resources */,
+				521BEC6A256FAF8A00F96DA9 /* bit7.mp3 in Resources */,
+				521BEC69256FAF8A00F96DA9 /* bit8.mp3 in Resources */,
+				521BEC66256FAF8A00F96DA9 /* bit2.mp3 in Resources */,
+				521BEC6E256FAF8A00F96DA9 /* bit4.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +169,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521BEC4B256FAF5300F96DA9 /* ViewController.swift in Sources */,
 				521BEC47256FAF5300F96DA9 /* AppDelegate.swift in Sources */,
+				521BEC6D256FAF8A00F96DA9 /* ViewController.swift in Sources */,
 				521BEC49256FAF5300F96DA9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +178,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		521BEC4C256FAF5300F96DA9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				521BEC4D256FAF5300F96DA9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		521BEC51256FAF5800F96DA9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9MWGQTB4CA;
 				INFOPLIST_FILE = "Micro Beat Machine/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9MWGQTB4CA;
 				INFOPLIST_FILE = "Micro Beat Machine/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
