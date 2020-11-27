@@ -12,7 +12,7 @@ import UIKit
 
 class CustomButton1: UIButton {
 
-    var color: UIColor = .black
+    var color: UIColor = .green
     let touchDownAlpha: CGFloat = 0.3
     let timerStep: TimeInterval = 0.01
     let animateTime: TimeInterval = 0.4
