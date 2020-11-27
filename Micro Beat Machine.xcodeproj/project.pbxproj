@@ -24,6 +24,7 @@
 		521BEC73256FBAB200F96DA9 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BEC72256FBAB100F96DA9 /* CustomButtons.swift */; };
 		521BEC76256FBE2600F96DA9 /* PlayBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BEC75256FBE2600F96DA9 /* PlayBeat.swift */; };
 		521BECA8256FF1CC00F96DA9 /* RecordVoic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BECA7256FF1CC00F96DA9 /* RecordVoic.swift */; };
+		525C3FE72570F76B00D6617F /* simulator_screenshot_CD8E327B-DE3D-413F-A786-F7D0D20E4531.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C3FE62570F76A00D6617F /* simulator_screenshot_CD8E327B-DE3D-413F-A786-F7D0D20E4531.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		521BEC72256FBAB100F96DA9 /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
 		521BEC75256FBE2600F96DA9 /* PlayBeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayBeat.swift; sourceTree = "<group>"; };
 		521BECA7256FF1CC00F96DA9 /* RecordVoic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVoic.swift; sourceTree = "<group>"; };
+		525C3FE62570F76A00D6617F /* simulator_screenshot_CD8E327B-DE3D-413F-A786-F7D0D20E4531.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simulator_screenshot_CD8E327B-DE3D-413F-A786-F7D0D20E4531.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				521BEC54256FAF5800F96DA9 /* Info.plist */,
 				521BEC72256FBAB100F96DA9 /* CustomButtons.swift */,
 				521BEC75256FBE2600F96DA9 /* PlayBeat.swift */,
+				525C3FE62570F76A00D6617F /* simulator_screenshot_CD8E327B-DE3D-413F-A786-F7D0D20E4531.png */,
 				521BECA7256FF1CC00F96DA9 /* RecordVoic.swift */,
 			);
 			path = "Micro Beat Machine";
@@ -164,6 +167,7 @@
 				521BEC6B256FAF8A00F96DA9 /* bit6.mp3 in Resources */,
 				521BEC68256FAF8A00F96DA9 /* bit3.mp3 in Resources */,
 				521BEC50256FAF5800F96DA9 /* Assets.xcassets in Resources */,
+				525C3FE72570F76B00D6617F /* simulator_screenshot_CD8E327B-DE3D-413F-A786-F7D0D20E4531.png in Resources */,
 				521BEC6A256FAF8A00F96DA9 /* bit7.mp3 in Resources */,
 				521BEC69256FAF8A00F96DA9 /* bit8.mp3 in Resources */,
 				521BEC66256FAF8A00F96DA9 /* bit2.mp3 in Resources */,
