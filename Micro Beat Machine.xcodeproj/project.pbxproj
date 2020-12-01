@@ -11,19 +11,19 @@
 		521BEC49256FAF5300F96DA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BEC48256FAF5300F96DA9 /* SceneDelegate.swift */; };
 		521BEC50256FAF5800F96DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC4F256FAF5800F96DA9 /* Assets.xcassets */; };
 		521BEC53256FAF5800F96DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC51256FAF5800F96DA9 /* LaunchScreen.storyboard */; };
-		521BEC66256FAF8A00F96DA9 /* bit2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC5C256FAF8800F96DA9 /* bit2.mp3 */; };
-		521BEC67256FAF8A00F96DA9 /* bit5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC5D256FAF8900F96DA9 /* bit5.mp3 */; };
-		521BEC68256FAF8A00F96DA9 /* bit3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC5E256FAF8900F96DA9 /* bit3.mp3 */; };
-		521BEC69256FAF8A00F96DA9 /* bit8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC5F256FAF8900F96DA9 /* bit8.mp3 */; };
-		521BEC6A256FAF8A00F96DA9 /* bit7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC60256FAF8900F96DA9 /* bit7.mp3 */; };
-		521BEC6B256FAF8A00F96DA9 /* bit6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC61256FAF8900F96DA9 /* bit6.mp3 */; };
 		521BEC6C256FAF8A00F96DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC62256FAF8900F96DA9 /* Main.storyboard */; };
 		521BEC6D256FAF8A00F96DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BEC63256FAF8900F96DA9 /* ViewController.swift */; };
-		521BEC6E256FAF8A00F96DA9 /* bit4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC64256FAF8900F96DA9 /* bit4.mp3 */; };
-		521BEC6F256FAF8A00F96DA9 /* bit1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 521BEC65256FAF8A00F96DA9 /* bit1.mp3 */; };
 		521BEC73256FBAB200F96DA9 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BEC72256FBAB100F96DA9 /* CustomButtons.swift */; };
 		521BEC76256FBE2600F96DA9 /* PlayBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BEC75256FBE2600F96DA9 /* PlayBeat.swift */; };
 		521BECA8256FF1CC00F96DA9 /* RecordVoic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521BECA7256FF1CC00F96DA9 /* RecordVoic.swift */; };
+		523D94ED25768AF10041AB7E /* bit2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 523D94E525768AF00041AB7E /* bit2.mp3 */; };
+		523D94EE25768AF10041AB7E /* bit7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 523D94E625768AF00041AB7E /* bit7.mp3 */; };
+		523D94EF25768AF10041AB7E /* bit1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 523D94E725768AF00041AB7E /* bit1.mp3 */; };
+		523D94F025768AF10041AB7E /* bit6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 523D94E825768AF00041AB7E /* bit6.mp3 */; };
+		523D94F125768AF10041AB7E /* bit4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 523D94E925768AF00041AB7E /* bit4.mp3 */; };
+		523D94F225768AF10041AB7E /* bit8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 523D94EA25768AF10041AB7E /* bit8.mp3 */; };
+		523D94F325768AF10041AB7E /* bit5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 523D94EB25768AF10041AB7E /* bit5.mp3 */; };
+		523D94F425768AF10041AB7E /* bit3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 523D94EC25768AF10041AB7E /* bit3.mp3 */; };
 		525C3FE72570F76B00D6617F /* simulator_screenshot_CD8E327B-DE3D-413F-A786-F7D0D20E4531.png in Resources */ = {isa = PBXBuildFile; fileRef = 525C3FE62570F76A00D6617F /* simulator_screenshot_CD8E327B-DE3D-413F-A786-F7D0D20E4531.png */; };
 /* End PBXBuildFile section */
 
@@ -34,19 +34,19 @@
 		521BEC4F256FAF5800F96DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		521BEC52256FAF5800F96DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		521BEC54256FAF5800F96DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		521BEC5C256FAF8800F96DA9 /* bit2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit2.mp3; sourceTree = "<group>"; };
-		521BEC5D256FAF8900F96DA9 /* bit5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit5.mp3; sourceTree = "<group>"; };
-		521BEC5E256FAF8900F96DA9 /* bit3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit3.mp3; sourceTree = "<group>"; };
-		521BEC5F256FAF8900F96DA9 /* bit8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit8.mp3; sourceTree = "<group>"; };
-		521BEC60256FAF8900F96DA9 /* bit7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit7.mp3; sourceTree = "<group>"; };
-		521BEC61256FAF8900F96DA9 /* bit6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit6.mp3; sourceTree = "<group>"; };
 		521BEC62256FAF8900F96DA9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		521BEC63256FAF8900F96DA9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../Drum/Drum/ViewController.swift; sourceTree = "<group>"; };
-		521BEC64256FAF8900F96DA9 /* bit4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit4.mp3; sourceTree = "<group>"; };
-		521BEC65256FAF8A00F96DA9 /* bit1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bit1.mp3; sourceTree = "<group>"; };
 		521BEC72256FBAB100F96DA9 /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
 		521BEC75256FBE2600F96DA9 /* PlayBeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayBeat.swift; sourceTree = "<group>"; };
 		521BECA7256FF1CC00F96DA9 /* RecordVoic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVoic.swift; sourceTree = "<group>"; };
+		523D94E525768AF00041AB7E /* bit2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bit2.mp3; path = ../../../../Downloads/bit2.mp3; sourceTree = "<group>"; };
+		523D94E625768AF00041AB7E /* bit7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bit7.mp3; path = ../../../../Downloads/bit7.mp3; sourceTree = "<group>"; };
+		523D94E725768AF00041AB7E /* bit1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bit1.mp3; path = ../../../../Downloads/bit1.mp3; sourceTree = "<group>"; };
+		523D94E825768AF00041AB7E /* bit6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bit6.mp3; path = ../../../../Downloads/bit6.mp3; sourceTree = "<group>"; };
+		523D94E925768AF00041AB7E /* bit4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bit4.mp3; path = ../../../../Downloads/bit4.mp3; sourceTree = "<group>"; };
+		523D94EA25768AF10041AB7E /* bit8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bit8.mp3; path = ../../../../Downloads/bit8.mp3; sourceTree = "<group>"; };
+		523D94EB25768AF10041AB7E /* bit5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bit5.mp3; path = ../../../../Downloads/bit5.mp3; sourceTree = "<group>"; };
+		523D94EC25768AF10041AB7E /* bit3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bit3.mp3; path = ../../../../Downloads/bit3.mp3; sourceTree = "<group>"; };
 		525C3FE62570F76A00D6617F /* simulator_screenshot_CD8E327B-DE3D-413F-A786-F7D0D20E4531.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simulator_screenshot_CD8E327B-DE3D-413F-A786-F7D0D20E4531.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,15 +82,15 @@
 			children = (
 				521BEC46256FAF5300F96DA9 /* AppDelegate.swift */,
 				521BEC48256FAF5300F96DA9 /* SceneDelegate.swift */,
-				521BEC65256FAF8A00F96DA9 /* bit1.mp3 */,
-				521BEC5C256FAF8800F96DA9 /* bit2.mp3 */,
-				521BEC5E256FAF8900F96DA9 /* bit3.mp3 */,
-				521BEC64256FAF8900F96DA9 /* bit4.mp3 */,
-				521BEC5D256FAF8900F96DA9 /* bit5.mp3 */,
-				521BEC61256FAF8900F96DA9 /* bit6.mp3 */,
-				521BEC60256FAF8900F96DA9 /* bit7.mp3 */,
-				521BEC5F256FAF8900F96DA9 /* bit8.mp3 */,
 				521BEC62256FAF8900F96DA9 /* Main.storyboard */,
+				523D94E725768AF00041AB7E /* bit1.mp3 */,
+				523D94E525768AF00041AB7E /* bit2.mp3 */,
+				523D94EC25768AF10041AB7E /* bit3.mp3 */,
+				523D94E925768AF00041AB7E /* bit4.mp3 */,
+				523D94EB25768AF10041AB7E /* bit5.mp3 */,
+				523D94E825768AF00041AB7E /* bit6.mp3 */,
+				523D94E625768AF00041AB7E /* bit7.mp3 */,
+				523D94EA25768AF10041AB7E /* bit8.mp3 */,
 				521BEC63256FAF8900F96DA9 /* ViewController.swift */,
 				521BEC4F256FAF5800F96DA9 /* Assets.xcassets */,
 				521BEC51256FAF5800F96DA9 /* LaunchScreen.storyboard */,
@@ -161,17 +161,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				521BEC53256FAF5800F96DA9 /* LaunchScreen.storyboard in Resources */,
+				523D94F225768AF10041AB7E /* bit8.mp3 in Resources */,
+				523D94ED25768AF10041AB7E /* bit2.mp3 in Resources */,
+				523D94F125768AF10041AB7E /* bit4.mp3 in Resources */,
+				523D94EE25768AF10041AB7E /* bit7.mp3 in Resources */,
+				523D94F025768AF10041AB7E /* bit6.mp3 in Resources */,
+				523D94F325768AF10041AB7E /* bit5.mp3 in Resources */,
 				521BEC6C256FAF8A00F96DA9 /* Main.storyboard in Resources */,
-				521BEC6F256FAF8A00F96DA9 /* bit1.mp3 in Resources */,
-				521BEC67256FAF8A00F96DA9 /* bit5.mp3 in Resources */,
-				521BEC6B256FAF8A00F96DA9 /* bit6.mp3 in Resources */,
-				521BEC68256FAF8A00F96DA9 /* bit3.mp3 in Resources */,
+				523D94F425768AF10041AB7E /* bit3.mp3 in Resources */,
 				521BEC50256FAF5800F96DA9 /* Assets.xcassets in Resources */,
+				523D94EF25768AF10041AB7E /* bit1.mp3 in Resources */,
 				525C3FE72570F76B00D6617F /* simulator_screenshot_CD8E327B-DE3D-413F-A786-F7D0D20E4531.png in Resources */,
-				521BEC6A256FAF8A00F96DA9 /* bit7.mp3 in Resources */,
-				521BEC69256FAF8A00F96DA9 /* bit8.mp3 in Resources */,
-				521BEC66256FAF8A00F96DA9 /* bit2.mp3 in Resources */,
-				521BEC6E256FAF8A00F96DA9 /* bit4.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
