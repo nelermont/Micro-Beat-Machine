@@ -11,9 +11,12 @@ import AVFoundation
 
 class RecordVC: UIViewController , AVAudioRecorderDelegate, AVAudioPlayerDelegate {
 
-    @IBOutlet var recordingTimeLabel: UILabel!
-    @IBOutlet var record_btn_ref: UIButton!
-    @IBOutlet var play_btn_ref: UIButton!
+    let viewCont = ViewController()
+    
+    
+    var recordingTimeLabel: UILabel!
+    var record_btn_ref: UIButton!
+    var play_btn_ref: UIButton!
     
     var audioRecorder: AVAudioRecorder!
     var audioPlayer : AVAudioPlayer!
@@ -25,6 +28,10 @@ class RecordVC: UIViewController , AVAudioRecorderDelegate, AVAudioPlayerDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
         check_record_permission()
+        recordingTimeLabel = viewCont.recVoicTime
+        record_btn_ref = viewCont.recVoicButton
+        play_btn_ref = viewCont.playRecButton
+        
 }
     func check_record_permission()
     {

@@ -12,18 +12,18 @@ import UIKit
 
 class CustomButton1: UIButton {
 
-    var color: UIColor = .green
+    var color: UIColor = .gray
     let touchDownAlpha: CGFloat = 0.3
     let timerStep: TimeInterval = 0.01
     let animateTime: TimeInterval = 0.4
     
     func setup() {
         layer.borderWidth = 1.0
-        layer.borderColor = UIColor.white.cgColor
+        layer.borderColor = UIColor.black.cgColor
         
         backgroundColor = .clear
         layer.backgroundColor = color.cgColor
-
+    
         layer.cornerRadius = 6
         clipsToBounds = true
     }
@@ -79,7 +79,7 @@ class CustomButton1: UIButton {
         if newAlpha < 1 {
             layer.backgroundColor = color.withAlphaComponent(newAlpha).cgColor
         } else {
-            layer.backgroundColor = color.cgColor
+           layer.backgroundColor = color.cgColor
 
             stopTimer()
         }

@@ -17,10 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vzT-Ao-Xau" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
-                                <rect key="frame" x="170" y="73" width="125" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vzT-Ao-Xau" userLabel="Drum Button Blue" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="312" y="38" width="100" height="100"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="aWV-Yo-Ato"/>
+                                    <constraint firstAttribute="width" constant="100" id="qcK-Gh-IlZ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="poweroff" catalog="system">
@@ -32,30 +35,17 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="drumAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7jJ-aw-QEa"/>
+                                    <action selector="drumBlueAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MCX-tl-M58"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gY9-Cw-Jpe" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
-                                <rect key="frame" x="458" y="73" width="125" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.79768458549999999" green="0.42811365950000002" blue="0.51206709230000003" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="poweroff" catalog="system">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="buAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9FE-ek-Mjh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ai2-iu-IFe" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
-                                <rect key="frame" x="313" y="73" width="125" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCb-Ex-flo" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="312" y="144" width="100" height="100"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="p1v-lR-cAj"/>
+                                    <constraint firstAttribute="height" constant="100" id="zdY-ej-hZz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="poweroff" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -66,13 +56,37 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="drumBIT:" destination="BYZ-38-t0r" eventType="touchUpInside" id="awe-DD-HPv"/>
+                                    <action selector="drumBlueAction3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zur-ef-TdU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpw-8N-tEm" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
-                                <rect key="frame" x="601" y="73" width="125" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kXr-Ci-AQG" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="312" y="250" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="MUs-4h-5uX"/>
+                                    <constraint firstAttribute="height" constant="100" id="PF4-uh-Kip"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="poweroff" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="drumBlueAction4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AhV-km-3fz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gY9-Cw-Jpe" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="524" y="38" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.79768458549999999" green="0.42811365950000002" blue="0.51206709230000003" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="IKS-V2-9Oz"/>
+                                    <constraint firstAttribute="height" constant="100" id="kha-jX-SmS"/>
+                                </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="poweroff" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -83,13 +97,56 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="bu2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xfO-gh-K5i"/>
+                                    <action selector="pinkAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8p0-Mf-qMZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eN-d1-zdY" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
-                                <rect key="frame" x="170" y="216" width="125" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ai2-iu-IFe" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="418" y="38" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="8xL-hj-dWP"/>
+                                    <constraint firstAttribute="width" constant="100" id="XLd-71-F1f"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="poweroff" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="drumBlueAction2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x62-hy-wD0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpw-8N-tEm" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="630" y="38" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.79768458549999999" green="0.42811365950000002" blue="0.51206709230000003" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="bSi-AO-nNW"/>
+                                    <constraint firstAttribute="width" constant="100" id="fcV-Tg-LyX"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="poweroff" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pinkAction2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cA0-wc-BRh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9eN-d1-zdY" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="418" y="144" width="100" height="100"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="63G-X0-fiK"/>
+                                    <constraint firstAttribute="width" constant="100" id="q5X-Te-4nJ"/>
+                                </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="poweroff" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -100,13 +157,16 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="drum3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NVc-Vw-1qz"/>
+                                    <action selector="orangeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ENe-s8-vWu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I27-Ob-fox" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
-                                <rect key="frame" x="601" y="216" width="125" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I27-Ob-fox" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="630" y="250" width="100" height="100"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="KfC-h2-D9I"/>
+                                    <constraint firstAttribute="height" constant="100" id="qKO-ws-ews"/>
+                                </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="poweroff" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -117,13 +177,16 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="bu3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WoM-rJ-AX3"/>
+                                    <action selector="violetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZFc-2d-MXu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evJ-LL-p2b" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
-                                <rect key="frame" x="313" y="216" width="125" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evJ-LL-p2b" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="418" y="250" width="100" height="100"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="AKy-vZ-RSn"/>
+                                    <constraint firstAttribute="height" constant="100" id="b7S-Xk-850"/>
+                                </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="poweroff" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -134,13 +197,56 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="drum4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aox-8f-2gZ"/>
+                                    <action selector="orangeAction2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TtT-wG-132"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dy-6r-jdO" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
-                                <rect key="frame" x="458" y="216" width="125" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Maa-29-fXo" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="524" y="144" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="0.75551155821917804" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="C1y-ZI-7r1"/>
+                                    <constraint firstAttribute="height" constant="100" id="K1P-P1-yIa"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="poweroff" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="limeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LTI-Y2-Vde"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLL-hg-viE" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="524" y="250" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9pp-6s-07V"/>
+                                    <constraint firstAttribute="width" constant="100" id="Zx0-oL-38i"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="poweroff" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="orangeAction3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sEe-Ah-x0m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dy-6r-jdO" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="736" y="144" width="100" height="100"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="RtM-bI-VE2"/>
+                                    <constraint firstAttribute="height" constant="100" id="rrG-IW-b5n"/>
+                                </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="poweroff" catalog="system">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -151,13 +257,56 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="bu4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jcY-E5-cl1"/>
+                                    <action selector="violetAction2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eaY-fS-rK7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDX-pD-eQA" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
-                                <rect key="frame" x="72" y="95" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jj-gT-FLk" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="736" y="250" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="0a1-8q-i5Q"/>
+                                    <constraint firstAttribute="height" constant="100" id="xu4-fC-Gd4"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="poweroff" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="violetAction3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gqx-Kh-sST"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGz-oH-wOK" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="630" y="144" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="0.75551155820000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="YdD-yE-3CQ"/>
+                                    <constraint firstAttribute="height" constant="100" id="zYH-hQ-87B"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="poweroff" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="limeAction2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kta-DP-vos"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDX-pD-eQA" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="154" y="270" width="80" height="80"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="2eo-r7-1nx"/>
+                                    <constraint firstAttribute="width" constant="80" id="ZRn-Yb-eMG"/>
+                                </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="poweroff" catalog="system"/>
                                 <userDefinedRuntimeAttributes>
@@ -165,46 +314,217 @@
                                         <integer key="value" value="40"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="grayAction2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N1g-pJ-d93"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Micro Beat Machine v1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbj-QO-Ubt">
-                                <rect key="frame" x="60" y="20" width="248" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TamilSangamMN" family="Tamil Sangam MN" pointSize="16"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTr-d0-9VZ" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="156" y="164" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="4Ml-zx-inR"/>
+                                    <constraint firstAttribute="height" constant="80" id="RP4-VA-awk"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="poweroff" catalog="system"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="play_recording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ee6-xa-Wkp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orP-NA-c5F" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="736" y="38" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.79768458549999999" green="0.42811365950000002" blue="0.51206709230000003" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="J4h-WG-1Hr"/>
+                                    <constraint firstAttribute="width" constant="100" id="QXs-d6-3BC"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="poweroff" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pinkAction3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="145-Ey-LgL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAR-If-bjK">
+                                <rect key="frame" x="46" y="194" width="106" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="6ad-de-jxE"/>
+                                    <constraint firstAttribute="width" constant="106" id="kwe-Uw-KrJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTr-d0-9VZ" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
-                                <rect key="frame" x="72" y="238" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" image="poweroff" catalog="system"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyu-BE-iZu" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="46" y="164" width="108" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="51I-qH-OuQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="8Eu-aJ-BrG"/>
+                                </constraints>
+                                <state key="normal" title="Голос">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="" value="NO"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="40"/>
+                                        <integer key="value" value="6"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="start_recording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ca-Rg-tHr"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTh-zg-Ulu" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="46" y="270" width="106" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Mi6-lo-kRD"/>
+                                    <constraint firstAttribute="width" constant="106" id="Q1G-lg-kLX"/>
+                                </constraints>
+                                <state key="normal" title="Дорожка 1">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoF-iH-Bic" customClass="CustomButton1" customModule="Micro_Beat_Machine" customModuleProvider="target">
+                                <rect key="frame" x="46" y="88" width="190" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="huz-Ks-ZoS"/>
+                                    <constraint firstAttribute="width" constant="190" id="qK9-g4-xcC"/>
+                                </constraints>
+                                <state key="normal" title=" Записать бит">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCq-ab-J3a">
+                                <rect key="frame" x="46" y="301" width="106" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="Gnj-xp-dEE"/>
+                                    <constraint firstAttribute="height" constant="19" id="QdK-V2-xhg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6hs-25-s31">
+                                <rect key="frame" x="50" y="38" width="114" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="KEb-yo-oQR"/>
+                                    <constraint firstAttribute="height" constant="31" id="LrH-fF-SLN"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="I"/>
+                                    <segment title="I"/>
+                                    <segment title="I"/>
+                                    <segment title="I"/>
+                                    <segment title="I"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeSampleAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="SGw-N4-WQq"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWK-5y-3gC">
+                                <rect key="frame" x="70" y="120" width="46" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="2fx-OT-hNd"/>
+                                    <constraint firstAttribute="width" constant="46" id="tJY-n9-Bak"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="VrK-nP-YDe"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.16860921965617232" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZGz-oH-wOK" firstAttribute="leading" secondItem="Maa-29-fXo" secondAttribute="trailing" constant="6" id="5bg-fH-TFl"/>
+                            <constraint firstItem="VrK-nP-YDe" firstAttribute="bottom" secondItem="cCq-ab-J3a" secondAttribute="bottom" constant="49" id="633-Ue-PvF"/>
+                            <constraint firstItem="evJ-LL-p2b" firstAttribute="top" secondItem="9eN-d1-zdY" secondAttribute="bottom" constant="6" id="6h3-Vy-IpN"/>
+                            <constraint firstItem="qpw-8N-tEm" firstAttribute="top" secondItem="VrK-nP-YDe" secondAttribute="top" constant="38" id="7Eo-an-I72"/>
+                            <constraint firstItem="VrK-nP-YDe" firstAttribute="bottom" secondItem="evJ-LL-p2b" secondAttribute="bottom" constant="19" id="7GW-cw-TCB"/>
+                            <constraint firstItem="QWK-5y-3gC" firstAttribute="leading" secondItem="VrK-nP-YDe" secondAttribute="leading" constant="26" id="8Cm-UP-Ynb"/>
+                            <constraint firstItem="ZGz-oH-wOK" firstAttribute="leading" secondItem="Maa-29-fXo" secondAttribute="trailing" constant="6" id="8MX-Ue-ziL"/>
+                            <constraint firstItem="cCq-ab-J3a" firstAttribute="leading" secondItem="VrK-nP-YDe" secondAttribute="leading" constant="2" id="9Kk-0W-n7G"/>
+                            <constraint firstItem="pTh-zg-Ulu" firstAttribute="top" secondItem="ZAR-If-bjK" secondAttribute="bottom" constant="55" id="Al7-6W-HLx"/>
+                            <constraint firstItem="lyu-BE-iZu" firstAttribute="leading" secondItem="VrK-nP-YDe" secondAttribute="leading" constant="2" id="Cuk-6F-jTF"/>
+                            <constraint firstItem="ZGz-oH-wOK" firstAttribute="top" secondItem="qpw-8N-tEm" secondAttribute="bottom" constant="6" id="ETC-5T-LqP"/>
+                            <constraint firstItem="pTh-zg-Ulu" firstAttribute="leading" secondItem="VrK-nP-YDe" secondAttribute="leading" constant="2" id="EXA-4x-Ubb"/>
+                            <constraint firstItem="EoF-iH-Bic" firstAttribute="leading" secondItem="VrK-nP-YDe" secondAttribute="leading" constant="2" id="EyD-fq-A74"/>
+                            <constraint firstItem="ZAR-If-bjK" firstAttribute="leading" secondItem="VrK-nP-YDe" secondAttribute="leading" constant="2" id="Flw-Q4-8Pa"/>
+                            <constraint firstItem="kXr-Ci-AQG" firstAttribute="top" secondItem="eCb-Ex-flo" secondAttribute="bottom" constant="6" id="G1t-tu-pI4"/>
+                            <constraint firstItem="5dy-6r-jdO" firstAttribute="leading" secondItem="ZGz-oH-wOK" secondAttribute="trailing" constant="6" id="Hc6-nU-CEK"/>
+                            <constraint firstItem="Maa-29-fXo" firstAttribute="top" secondItem="gY9-Cw-Jpe" secondAttribute="bottom" constant="6" id="JLX-Ln-Qju"/>
+                            <constraint firstItem="9eN-d1-zdY" firstAttribute="leading" secondItem="eCb-Ex-flo" secondAttribute="trailing" constant="6" id="JmG-cD-A5h"/>
+                            <constraint firstItem="BLL-hg-viE" firstAttribute="top" secondItem="Maa-29-fXo" secondAttribute="bottom" constant="6" id="K75-7C-p9C"/>
+                            <constraint firstItem="gY9-Cw-Jpe" firstAttribute="leading" secondItem="ai2-iu-IFe" secondAttribute="trailing" constant="6" id="K9d-OX-6vG"/>
+                            <constraint firstItem="ai2-iu-IFe" firstAttribute="top" secondItem="VrK-nP-YDe" secondAttribute="top" constant="38" id="KKu-v5-NmR"/>
+                            <constraint firstItem="VrK-nP-YDe" firstAttribute="bottom" secondItem="kXr-Ci-AQG" secondAttribute="bottom" constant="19" id="KTI-80-0iO"/>
+                            <constraint firstItem="QWK-5y-3gC" firstAttribute="top" secondItem="EoF-iH-Bic" secondAttribute="bottom" constant="2" id="Kck-o7-872"/>
+                            <constraint firstItem="9eN-d1-zdY" firstAttribute="leading" secondItem="eCb-Ex-flo" secondAttribute="trailing" constant="6" id="Kjo-Fr-E4C"/>
+                            <constraint firstItem="VrK-nP-YDe" firstAttribute="trailing" secondItem="5dy-6r-jdO" secondAttribute="trailing" constant="16" id="KnT-JI-dyP"/>
+                            <constraint firstItem="VrK-nP-YDe" firstAttribute="bottom" secondItem="I27-Ob-fox" secondAttribute="bottom" constant="19" id="LSH-Yd-MA0"/>
+                            <constraint firstItem="gY9-Cw-Jpe" firstAttribute="leading" secondItem="ai2-iu-IFe" secondAttribute="trailing" constant="6" id="Lpy-qk-Brr"/>
+                            <constraint firstItem="9eN-d1-zdY" firstAttribute="top" secondItem="ai2-iu-IFe" secondAttribute="bottom" constant="6" id="Mml-I5-WOx"/>
+                            <constraint firstItem="VrK-nP-YDe" firstAttribute="bottom" secondItem="4jj-gT-FLk" secondAttribute="bottom" constant="19" id="ONK-fc-Clc"/>
+                            <constraint firstItem="qpw-8N-tEm" firstAttribute="leading" secondItem="gY9-Cw-Jpe" secondAttribute="trailing" constant="6" id="P1t-kT-NFr"/>
+                            <constraint firstItem="eCb-Ex-flo" firstAttribute="top" secondItem="vzT-Ao-Xau" secondAttribute="bottom" constant="6" id="PQT-NW-Y5d"/>
+                            <constraint firstItem="gY9-Cw-Jpe" firstAttribute="top" secondItem="VrK-nP-YDe" secondAttribute="top" constant="38" id="PeG-An-s3H"/>
+                            <constraint firstItem="ai2-iu-IFe" firstAttribute="leading" secondItem="vzT-Ao-Xau" secondAttribute="trailing" constant="6" id="Qgl-go-eqq"/>
+                            <constraint firstItem="lyu-BE-iZu" firstAttribute="top" secondItem="EoF-iH-Bic" secondAttribute="bottom" constant="46" id="SJG-x8-QZj"/>
+                            <constraint firstItem="LTr-d0-9VZ" firstAttribute="leading" secondItem="lyu-BE-iZu" secondAttribute="trailing" constant="2" id="SbO-Ol-wHI"/>
+                            <constraint firstItem="VrK-nP-YDe" firstAttribute="trailing" secondItem="4jj-gT-FLk" secondAttribute="trailing" constant="16" id="Uzp-AF-pDH"/>
+                            <constraint firstItem="evJ-LL-p2b" firstAttribute="top" secondItem="9eN-d1-zdY" secondAttribute="bottom" constant="6" id="VVp-uo-Lcq"/>
+                            <constraint firstItem="Maa-29-fXo" firstAttribute="leading" secondItem="9eN-d1-zdY" secondAttribute="trailing" constant="6" id="W5T-5T-Ftm"/>
+                            <constraint firstItem="cCq-ab-J3a" firstAttribute="top" secondItem="pTh-zg-Ulu" secondAttribute="bottom" constant="1" id="XOV-F9-G71"/>
+                            <constraint firstItem="4jj-gT-FLk" firstAttribute="leading" secondItem="I27-Ob-fox" secondAttribute="trailing" constant="6" id="ZuJ-Hq-1Rw"/>
+                            <constraint firstItem="evJ-LL-p2b" firstAttribute="leading" secondItem="kXr-Ci-AQG" secondAttribute="trailing" constant="6" id="cqD-eT-P4Q"/>
+                            <constraint firstItem="5dy-6r-jdO" firstAttribute="top" secondItem="orP-NA-c5F" secondAttribute="bottom" constant="6" id="ddc-JV-7cI"/>
+                            <constraint firstItem="BLL-hg-viE" firstAttribute="leading" secondItem="evJ-LL-p2b" secondAttribute="trailing" constant="6" id="dnf-wP-cID"/>
+                            <constraint firstItem="I27-Ob-fox" firstAttribute="top" secondItem="ZGz-oH-wOK" secondAttribute="bottom" constant="6" id="dtJ-FP-ov1"/>
+                            <constraint firstItem="I27-Ob-fox" firstAttribute="leading" secondItem="BLL-hg-viE" secondAttribute="trailing" constant="6" id="e5J-0M-yKn"/>
+                            <constraint firstItem="LTr-d0-9VZ" firstAttribute="top" secondItem="vzT-Ao-Xau" secondAttribute="bottom" constant="26" id="hKQ-7g-SsB"/>
+                            <constraint firstItem="FDX-pD-eQA" firstAttribute="top" secondItem="eCb-Ex-flo" secondAttribute="bottom" constant="26" id="iei-2M-M4o"/>
+                            <constraint firstItem="orP-NA-c5F" firstAttribute="top" secondItem="VrK-nP-YDe" secondAttribute="top" constant="38" id="j34-oO-xdE"/>
+                            <constraint firstItem="6hs-25-s31" firstAttribute="top" secondItem="VrK-nP-YDe" secondAttribute="top" constant="38" id="j8I-QW-TR3"/>
+                            <constraint firstItem="VrK-nP-YDe" firstAttribute="bottom" secondItem="FDX-pD-eQA" secondAttribute="bottom" constant="19" id="jJ5-hT-Y01"/>
+                            <constraint firstItem="VrK-nP-YDe" firstAttribute="bottom" secondItem="BLL-hg-viE" secondAttribute="bottom" constant="19" id="lHu-PC-RF7"/>
+                            <constraint firstItem="6hs-25-s31" firstAttribute="leading" secondItem="VrK-nP-YDe" secondAttribute="leading" constant="6" id="lYC-r4-j9u"/>
+                            <constraint firstItem="ZAR-If-bjK" firstAttribute="top" secondItem="lyu-BE-iZu" secondAttribute="bottom" id="qLv-uR-dGq"/>
+                            <constraint firstItem="VrK-nP-YDe" firstAttribute="trailing" secondItem="orP-NA-c5F" secondAttribute="trailing" constant="16" id="qY9-Yh-zb8"/>
+                            <constraint firstItem="BLL-hg-viE" firstAttribute="top" secondItem="Maa-29-fXo" secondAttribute="bottom" constant="6" id="rMU-jq-Yrp"/>
+                            <constraint firstItem="orP-NA-c5F" firstAttribute="leading" secondItem="qpw-8N-tEm" secondAttribute="trailing" constant="6" id="s17-EP-dd6"/>
+                            <constraint firstItem="I27-Ob-fox" firstAttribute="top" secondItem="ZGz-oH-wOK" secondAttribute="bottom" constant="6" id="s9U-qL-sck"/>
+                            <constraint firstItem="evJ-LL-p2b" firstAttribute="leading" secondItem="kXr-Ci-AQG" secondAttribute="trailing" constant="6" id="sA5-bU-7W9"/>
+                            <constraint firstItem="kXr-Ci-AQG" firstAttribute="top" secondItem="eCb-Ex-flo" secondAttribute="bottom" constant="6" id="tf6-RO-bac"/>
+                            <constraint firstItem="vzT-Ao-Xau" firstAttribute="top" secondItem="VrK-nP-YDe" secondAttribute="top" constant="38" id="uen-yt-vCa"/>
+                            <constraint firstItem="Maa-29-fXo" firstAttribute="leading" secondItem="9eN-d1-zdY" secondAttribute="trailing" constant="6" id="uob-5m-aCz"/>
+                            <constraint firstItem="ai2-iu-IFe" firstAttribute="leading" secondItem="vzT-Ao-Xau" secondAttribute="trailing" constant="6" id="v0T-7R-iL1"/>
+                            <constraint firstItem="FDX-pD-eQA" firstAttribute="leading" secondItem="pTh-zg-Ulu" secondAttribute="trailing" constant="2" id="vlH-sg-6Dz"/>
+                            <constraint firstItem="4jj-gT-FLk" firstAttribute="top" secondItem="5dy-6r-jdO" secondAttribute="bottom" constant="6" id="wck-4t-Nhn"/>
+                            <constraint firstItem="BLL-hg-viE" firstAttribute="leading" secondItem="evJ-LL-p2b" secondAttribute="trailing" constant="6" id="yff-E1-OTz"/>
+                            <constraint firstItem="I27-Ob-fox" firstAttribute="leading" secondItem="BLL-hg-viE" secondAttribute="trailing" constant="6" id="yoh-4J-0VE"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="TI0-mR-6fE"/>
                     <connections>
-                        <outlet property="buButton" destination="gY9-Cw-Jpe" id="Tq5-w8-scS"/>
-                        <outlet property="buButton2" destination="qpw-8N-tEm" id="m3O-nx-bQB"/>
-                        <outlet property="buButton3" destination="5dy-6r-jdO" id="XJE-br-0Nv"/>
-                        <outlet property="buButton4" destination="I27-Ob-fox" id="dyE-NJ-u9L"/>
-                        <outlet property="drumButton" destination="vzT-Ao-Xau" id="wyv-nu-xEJ"/>
-                        <outlet property="drumButton2" destination="ai2-iu-IFe" id="niy-z1-Ckm"/>
-                        <outlet property="drumButton3" destination="9eN-d1-zdY" id="PoS-Ix-q3N"/>
-                        <outlet property="drumButton4" destination="evJ-LL-p2b" id="cTC-Xg-ur2"/>
-                        <outlet property="longWaveButton" destination="FDX-pD-eQA" id="9Dm-dg-qwc"/>
-                        <outlet property="longWaveButton2" destination="LTr-d0-9VZ" id="JQb-yn-CQs"/>
+                        <outlet property="changeSample" destination="6hs-25-s31" id="NT4-Ec-6ro"/>
+                        <outlet property="play_btn_ref" destination="LTr-d0-9VZ" id="rjG-l7-wI6"/>
+                        <outlet property="record_btn_ref" destination="lyu-BE-iZu" id="Rnt-RO-VEm"/>
+                        <outlet property="recordingTimeLabel" destination="ZAR-If-bjK" id="9Wh-uu-cHg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="37" y="-413"/>
+            <point key="canvasLocation" x="-100.23696682464454" y="-463.07692307692304"/>
         </scene>
     </scenes>
     <resources>
